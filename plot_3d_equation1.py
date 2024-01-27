@@ -27,7 +27,7 @@ fig = myplt.figure()
 # in this case it creates a single subplot in a 1 x 1 grid and the subplot is at index 1
 ax = fig.add_subplot(111, projection='3d')
 ax.plot_surface(x, y, z1, alpha=0.5, rstride=100, cstride=100, color='b', label='2x + 3y = z')
-ax.plot_surface(x, y, z2, alpha=0.5, rstride=100, cstride=100, color='g', label='-1.5x + 2y')
+ax.plot_surface(x, y, z2, alpha=0.5, rstride=100, cstride=100, facecolors='g', label='-1.5x + 2y')
 
 # add labels and legends
 ax.set_xlabel('X-axis')
