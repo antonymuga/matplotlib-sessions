@@ -1,5 +1,5 @@
 import numpy as np
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as myplt
 from mpl_toolkits.mplot3d import Axes3D
 
 # Define the linear equations
